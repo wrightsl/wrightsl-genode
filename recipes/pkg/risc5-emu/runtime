@@ -1,0 +1,19 @@
+<runtime ram="512M" caps="10000" binary="init" config="init.config">
+
+	<requires>
+		<timer/>
+	</requires>
+
+	<content>
+
+		<!-- application -->
+
+		<rom label="vfs"/>
+		<rom label="risc5-emu"/>
+		<rom label="libc.lib.so"/>
+		<rom label="libm.lib.so"/>
+		<rom label="sdl.lib.so"/>
+
+	</content>
+
+</runtime>
