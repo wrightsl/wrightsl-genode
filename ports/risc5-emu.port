@@ -1,0 +1,14 @@
+LICENSE   := GPLv2
+VERSION   := git
+DOWNLOADS := risc5-emu.git
+
+
+URL(risc5-emu) := https://github.com/wrightsl/oberon-risc-emu-genode.git
+REV(risc5-emu) := fc1fee0bd590223eaf0d83e57d5c2db49957f0a2
+DIR(risc5-emu) := src/app/risc5-emu
+#PATCHES := src/app/risc5-emu/build.patch
+
+# PATCHES := $(addprefix src/app/risc5-emu/patches/,\
+#                        $(notdir $(wildcard $(REP_DIR)/src/app/dosbox/patches/*.patch)))
+# PATCH_OPT := -p2 -d src/app/dosbox
+
